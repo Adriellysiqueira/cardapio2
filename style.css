@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
+    background-color: #FFCFD8;
     color: #222222;
     margin: 0;
     font-family: "Barlow";
@@ -8,11 +9,11 @@ body{
 
 a{
     text-decoration: none;
-    color:#222222
+    color: #552519;
 }
 
 a:hover{
-    color:#ca3c3f;
+    color: #DB5275; 
 }
 
 .header{
@@ -40,7 +41,7 @@ a:hover{
     text-align: center;
 }
 .coluna{
-    width: 45%;
+    width: 30%;
     display: inline-block;
     vertical-align: middle;
 }
@@ -59,12 +60,12 @@ a:hover{
     font-size: 20px;
 }
 .banner img{
-    width: 90%;
+    width: 70%;
 
 }
 .cardapio{
     box-sizing: border-box;
-    border-top: 1px dashed #999999;
+    border-top: 1px dashed #552519;
     width: 100%;
     margin: auto;
     max-width: 700px;
@@ -74,7 +75,7 @@ a:hover{
 }
 .cardapio-categoria{
     text-align: left;
-    color:#ca3c3f;
+    color:#552519;
     font-size: 22px;
     margin-top: 50px; ;
 }
@@ -106,7 +107,7 @@ footer{
     padding: 50px;
     font-size: 14px;
     color:#ffffff;
-    background-color: #333333;
+    background-color: #552519;
 }
 footer p{
     margin: 3px;
